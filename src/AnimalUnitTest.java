@@ -4,29 +4,29 @@ import animal.*;
 
 public class AnimalUnitTest{
 	public static void main(String[] args){
-		Animal a1 = new Cheetar(); 		// ãƒãƒ¼ã‚¿ãƒ¼
-		Animal a2 = new Horse();ã€€ 		// é¦¬
-		Animal a3 = new Lion();  		// ãƒ©ã‚¤ã‚ªãƒ³
+		Animal a1 = new Cheetar(); 		// ƒ`[ƒ^[
+		Animal a2 = new Horse();		// ”n
+		Animal a3 = new Lion();  		// ƒ‰ƒCƒIƒ“
 		
-		// ãƒãƒ¼ã‚¿ãƒ¼
+		// ƒ`[ƒ^[							   «ƒeƒXƒgŒ‹‰Ê
 		System.out.println(a1.getSpeed());	// 110
-		System.out.println(a1.getName());	// ãƒãƒ¼ã‚¿ãƒ¼
+		System.out.println(a1.getName());	// ƒ`[ƒ^[
 		System.out.println(a1.race(a1));	// draw
-		System.out.println(a1.race(a2)); 	// ãƒãƒ¼ã‚¿ãƒ¼ win
-		System.out.println(a1.race(a3)); 	// ãƒãƒ¼ã‚¿ãƒ¼ win
+		System.out.println(a1.race(a2)); 	// ƒ`[ƒ^[ win
+		System.out.println(a1.race(a3)); 	// ƒ`[ƒ^[ win
 		
-		// é¦¬
+		// ”n
 		System.out.println(a2.getSpeed());	// 80
-		System.out.println(a2.getName();	// é¦¬
-		System.out.println(a2.race(a1)); 	// é¦¬ lose
+		System.out.println(a2.getName());	// ”n
+		System.out.println(a2.race(a1)); 	// ”n lose
 		System.out.println(a2.race(a2)); 	// draw
-		System.out.println(a2.race(a3)); 	// é¦¬ win
+		System.out.println(a2.race(a3)); 	// ”n win
 		
 		// Lion
 		System.out.println(a3.getSpeed());	// 60
-		System.out.println(a3.getName());	// ãƒ©ã‚¤ã‚ªãƒ³
-		System.out.println(a3.race(a1)); 	// ãƒ©ã‚¤ã‚ªãƒ³ lose
-		System.out.println(a3.race(a2)); 	// ãƒ©ã‚¤ã‚ªãƒ³ lose
+		System.out.println(a3.getName());	// ƒ‰ƒCƒIƒ“
+		System.out.println(a3.race(a1)); 	// ƒ‰ƒCƒIƒ“ lose
+		System.out.println(a3.race(a2)); 	// ƒ‰ƒCƒIƒ“ lose
 		System.out.println(a3.race(a3)); 	// draw
 	}
 }
